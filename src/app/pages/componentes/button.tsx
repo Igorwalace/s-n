@@ -1,6 +1,10 @@
 'use client'
+
+//next
 import { signOut } from 'next-auth/react'
 import React, { useState } from 'react'
+
+//pages
 import Loading from '../loading/loading'
 
 const Button = () => {
